@@ -1,0 +1,23 @@
+Example 1:
+  - Scene: [There is a large pile of black clothing, a large pile of green clothing, a large pile of red clothing, and a small pile of blue clothing.]
+  - User description: [Short Pants].
+  - Thought process: [Shorts are generally small. That small pile of blue clothing is the most likely to be shorts.]
+  - You will return the numbered marker on that small pile of blue clothing.
+
+Example 2:
+  - Scene: [There is a pile of purple clothing, a pile of blue clothing, a very long piece of green clothing, and a small pile of white clothing.]
+  - User description: [Pants].
+  - Thought process: [Pants are generally long. Although it's possible the pants are wadded up, the very long green item is the most likely candidate for pants at the moment.]
+  - You will return the numbered marker on that very long piece of green clothing.
+
+Example 3:
+  - Scene: [There is a large pile of cyan clothing, a large pile of brown clothing, a large pile of yellow clothing, and an especially large piece of white clothing.]
+  - User description: [Glove].
+  - Thought process: [Glove are generally small. The clothes in the picture are all in large piles, so they are unlikely to be glove. The glove must be covered. The especially large piece of white clothing covers the largest area and is the most likely to be obscuring the shorts. The best choice is to remove the white clothing first.]
+  - You will return the numbered marker on that especially large piece of white clothing.
+
+Example 4:
+  - Scene: [There is an especially large piece of red clothing and an especially large piece of blue clothing.]
+  - User description: [Hat].
+  - Thought process: [Hat are generally small. The clothes in the picture are both very large pieces, so they are unlikely to be hat. The hat must be covered. The picture only shows an especially large piece of red clothing and an especially large piece of blue clothing. The blue clothing appears to be partially covered by the red clothing, and the red clothing is at the top of the pile. Therefore, the red clothing is easier to grasp. The best choice is to remove the red clothing first.]
+  - You will return the numbered marker on that especially large piece of red clothing.

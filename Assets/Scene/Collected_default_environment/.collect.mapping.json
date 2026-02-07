@@ -1,0 +1,23 @@
+{
+    "version": "1.0",
+    "file_records": [
+        {
+            "source_url": "/home/admin02/isaacsim_assets/Assets/Isaac/4.5/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png",
+            "source_hash": "c90bb47964b3bed471be3b5a8008ba1e9869d955",
+            "target_url": "./SubUSDs/textures/WireframeBlur_basecolor.png",
+            "target_hash": "e141be15c0ea164834a0da656a4ee305eb17bc70"
+        },
+        {
+            "source_url": "/home/admin02/isaacsim_assets/Assets/Isaac/4.5/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png",
+            "source_hash": "ed0653520921f5d85360f048105a84b74911bae9",
+            "target_url": "./SubUSDs/textures/WireframeBlur_blue.png",
+            "target_hash": "273cec87a3b5f241b8699eb43a06195cb54c6fd1"
+        },
+        {
+            "source_url": "/home/admin02/isaacsim_assets/Assets/Isaac/4.5/Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png",
+            "source_hash": "d3f549926303aa7c808a3282c3b0bd79d6b96d2d",
+            "target_url": "./SubUSDs/textures/Wireframe_blue.png",
+            "target_hash": "e9915f3bc809418a313cd92e9727e98273c144f5"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+Example 1:
+  - Scene: [There is a large pile of black clothing, a large pile of green clothing, a large pile of red clothing, and a pile of blue clothing.]
+  - User description: [Blue Top].
+  - Thought process: [A pile of blue clothing can be seen in the image. It should be a blue top. It is highly visible and can be directly grasped.]
+  - You will return the numbered marker on that pile of blue clothing.
+
+Example 2:
+  - Scene: [There is a pile of purple clothing, a pile of blue clothing, a very long piece of green clothing, and a small pile of white clothing.]
+  - User description: [Olive Pants].
+  - Thought process: [No olive color was found in the image. The color closest to olive is green. And pants are usually quite long. That very long piece of green clothing is very likely the olive pants the user is referring to.]
+  - You will return the numbered marker on that very long piece of green clothing.
+
+Example 3:
+  - Scene: [There is a large pile of cyan clothing, a large pile of brown clothing, a large pile of yellow clothing, and a particularly large piece of white clothing.]
+  - User description: [Red Shorts].
+  - Thought process: [No red color was found in the image. The red shorts must be covered. The particularly large piece of white clothing has the largest coverage area and is most likely to be obscuring the red shorts. The best choice is to first remove the white clothing.]
+  - You will return the numbered marker on that particularly large piece of white clothing.
+
+Example 4:
+  - Scene: [There is a particularly large piece of red clothing and a particularly large piece of blue clothing.]
+  - User description: [Purple Shirt].
+  - Thought process: [No purple color was found in the image. The two particularly large pieces of red and blue clothing have colors that are clearly different from purple. The purple shirt must be covered. The image only shows a particularly large piece of red clothing and a particularly large piece of blue clothing. The blue clothing appears to be partially covered by the red clothing, and the red clothing is at the top of the pile. Therefore, the red clothing is easier to grasp. The best choice is to first remove the red clothing.]
+  - You will return the numbered marker on that particularly large piece of red clothing.
+
+Example 5:
+  - Scene: [There is a pile of red clothing, a pile of orange clothing, a large pile of dark blue clothing, and a small pile of light blue clothing.]
+  - User description: [Sky Blue Shorts].
+  - Thought process: [No sky blue color was found in the image. The colors closest to sky blue are dark blue and light blue. And shorts are usually relatively small. The small pile of light blue clothing is most likely the sky blue shorts the user is referring to.]
+  - You will return the numbered marker on that small pile of light blue clothing.

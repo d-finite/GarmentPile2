@@ -1,0 +1,13 @@
+**/__pycache__/
+**/.vscode/
+
+**/wandb
+**/Model_Checkpoints
+
+**/*.zip
+
+.DS_Store
+Assets/Garment
+
+Model_Train/Data
+Results/
