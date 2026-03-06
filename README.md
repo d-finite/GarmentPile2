@@ -108,6 +108,14 @@ isaac45 Model_Train/closed_scene_aff_train.py
 
 If you find this paper useful, please consider starring 🌟 this repo and citing 📑 our paper:
 
-```
-TBD
+```bibtex
+@misc{li2026garmentpile2,
+      title={GarmentPile++: Affordance-Driven Cluttered Garments Retrieval with Vision-Language Reasoning}, 
+      author={Mingleyang Li and Yuran Wang and Yue Chen and Tianxing Chen and Jiaqi Liang and Zishun Shen and Haoran Lu and Ruihai Wu and Hao Dong},
+      year={2026},
+      eprint={2603.04158},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2603.04158}, 
+}
 ```
